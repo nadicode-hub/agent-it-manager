@@ -3,7 +3,7 @@
     {
       "id": "ee1f541e1eb5",
       "name": "Avvisi di sicurezza della settimana",
-      "prompt": "Leggi gli avvisi di sicurezza della settimana dei vendor presenti nell'inventario (it/inventario.md) e di CSIRT Italia, come dice la skill fonti-ufficiali-vendor. Per ogni avviso che riguarda una versione presente: gravità, se è sfruttato attivamente, cosa fare ed entro quando. Se l'inventario manca o è incompleto, dillo e proponi di completarlo. Messaggio breve, prima le cose urgenti.",
+      "prompt": "Leggi gli avvisi di sicurezza della settimana, compresi gli aggiornamenti mensili di Microsoft quando sono usciti ieri, dei vendor presenti nell'inventario (it/inventario.md) e di CSIRT Italia, come dice la skill fonti-ufficiali-vendor. Per ogni avviso che riguarda una versione presente: gravità, se è sfruttato attivamente, cosa fare ed entro quando. Se l'inventario manca o è incompleto, dillo e proponi di completarlo. Messaggio breve, prima le cose urgenti.",
       "skills": [
         "fonti-ufficiali-vendor",
         "sicurezza-e-conformita"
@@ -20,10 +20,10 @@
       "context_from": null,
       "schedule": {
         "kind": "cron",
-        "expr": "0 8 * * 1",
-        "display": "0 8 * * 1"
+        "expr": "0 8 * * 3",
+        "display": "0 8 * * 3"
       },
-      "schedule_display": "0 8 * * 1",
+      "schedule_display": "0 8 * * 3",
       "repeat": {
         "times": null,
         "completed": 0
@@ -32,8 +32,8 @@
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
-      "created_at": "2026-11-03T00:59:23.490374+01:00",
-      "next_run_at": "2026-11-09T08:00:00+01:00",
+      "created_at": "2026-11-03T02:51:43.293262+01:00",
+      "next_run_at": "2026-11-04T08:00:00+01:00",
       "last_run_at": null,
       "last_status": null,
       "last_error": null,
@@ -77,7 +77,7 @@
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
-      "created_at": "2026-11-03T00:59:23.507367+01:00",
+      "created_at": "2026-11-03T02:51:43.308470+01:00",
       "next_run_at": "2026-11-03T08:30:00+01:00",
       "last_run_at": null,
       "last_status": null,
@@ -123,7 +123,7 @@
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
-      "created_at": "2026-11-03T00:59:23.516603+01:00",
+      "created_at": "2026-11-03T02:51:43.316441+01:00",
       "next_run_at": "2026-12-01T09:00:00+01:00",
       "last_run_at": null,
       "last_status": null,
@@ -138,5 +138,5 @@
       "workdir": null
     }
   ],
-  "updated_at": "2026-11-03T00:59:23.522742+01:00"
+  "updated_at": "2026-11-03T02:51:43.322099+01:00"
 }

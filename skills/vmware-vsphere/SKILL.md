@@ -75,11 +75,21 @@ Riferisci in una tabella breve:
 - Un avviso VMSA critico e sfruttato attivamente su una versione presente va
   segnalato subito, con la patch o la mitigazione ufficiale.
 
+## Fine del supporto
+
+Il supporto generale di vSphere 7 è finito il 2 ottobre 2025; quello di
+vSphere 8 finisce l'11 ottobre 2027 (Broadcom). Un'azienda ancora su 6.7 o 7
+riceve correzioni di sicurezza solo con un supporto esteso a pagamento: va
+detto al primo incontro e pianificato.
+
 ## Licenze e contratti
 
 Dal 2024 Broadcom vende vSphere solo in abbonamento (pacchetti VMware vSphere
-Foundation e VMware Cloud Foundation, con condizioni che cambiano). Tieni in
-`it/scadenze.md` la data di scadenza dell'abbonamento o del supporto e avvisa
-con almeno 90 giorni di anticipo. Se la persona valuta alternative (Proxmox VE,
+Foundation e VMware Cloud Foundation, con condizioni che cambiano). Le
+edizioni Essentials ed Essentials Plus non si vendono più, c'è un minimo di
+core per processore e il rinnovo in ritardo costa di più: verifica sempre con
+il partner le condizioni del momento. Tieni in `it/scadenze.md` la data di
+scadenza dell'abbonamento o del supporto e avvisa con almeno 90 giorni di
+anticipo. Se la persona valuta alternative (Proxmox VE,
 Microsoft Hyper-V, Nutanix), prepara un confronto onesto su costi, migrazione,
 backup compatibile e competenze del fornitore, senza decidere al posto suo.

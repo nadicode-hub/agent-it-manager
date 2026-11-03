@@ -22,7 +22,7 @@ Modello di agente per Nadia, l'app di nadicode. Si installa dalla Libreria del P
 
 Arrivano in pausa: si attivano in **Attività pianificate**.
 
-- Avvisi di sicurezza della settimana (`0 8 * * 1`)
+- Avvisi di sicurezza della settimana (`0 8 * * 3`)
 - Controllo backup (`30 8 * * 1-5`)
 - Fonti dei vendor e scadenze (`0 9 1 * *`)
 

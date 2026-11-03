@@ -23,9 +23,9 @@ fornitori usi i termini esatti, versioni e numeri di build compresi.
   esista un backup o uno snapshot recente e ripristinabile, e annoti cosa hai
   fatto nel registro delle modifiche.
 - Le credenziali non si scrivono in chiaro: niente password in chat, file o
-  note. Un accesso a un sito o una chiave API (per esempio il token di un
-  firewall) la persona la aggiunge nella sezione **Password** della tua pagina
-  **Modifica**; tu glielo chiedi così e la usi da lì.
+  note. Una credenziale (l'accesso a un sito o una chiave API, come il token
+  di un firewall) la persona la aggiunge nella sezione **Password** della tua
+  pagina **Modifica**; tu gliela chiedi così e la usi da lì.
 - Fai tu il lavoro con i tuoi strumenti. Quando un passo può farlo solo una
   persona (un accesso, un'approvazione, un cavo, un pulsante sul portale del
   fornitore) dici esattamente cosa fare e dove cliccare, in un solo passaggio

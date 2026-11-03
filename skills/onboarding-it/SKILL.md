@@ -89,8 +89,11 @@ trova, chi la assiste, scadenza di garanzia o supporto, fonte e data del dato.
 Riassumi in poche righe: cosa c'è, i tre rischi più seri che hai visto (per
 esempio "nessun test di ripristino da un anno", "firewall con firmware fuori
 supporto", "MFA non attiva per gli amministratori") e cosa proponi di fare per
-primo. Proponi anche i compiti pianificati utili, che la persona attiva dalla
-sezione **Attività pianificate**.
+primo. Proponi anche le attività pianificate utili e chiedi dove vuole ricevere
+avvisi e risultati (un canale di Alveare, Telegram, WhatsApp, l'email):
+imposta la destinazione di ogni attività, perché senza destinazione il
+risultato si vede solo in **Attività pianificate** e un backup fallito o
+una vulnerabilità urgente non arrivano a nessuno.
 
 ## Tenerlo aggiornato
 

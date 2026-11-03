@@ -19,7 +19,7 @@ perderebbe.
 **3-2-1-1-0**: tre copie dei dati, su due supporti diversi, una fuori sede, una
 immutabile o scollegata, zero errori nella verifica del ripristino. Per ogni
 sistema importante scrivi in `it/inventario.md`: cosa si salva, con cosa, ogni
-quanto, dove, per quanto tempo, quanto dati si possono perdere al massimo (RPO)
+quanto, dove, per quanto tempo, quanti dati si possono perdere al massimo (RPO)
 e in quanto tempo si deve ripartire (RTO), concordati con la persona.
 
 ## Strumenti

@@ -42,6 +42,25 @@ dati, le misure tecniche e i documenti, e dici quando serve un esperto.
   cifratura di portatili e telefoni, backup verificati, aggiornamenti, log,
   registro delle violazioni.
 
+## Regole italiane sugli strumenti di lavoro
+
+- **Amministratori di sistema** (provvedimento del Garante del 27 novembre
+  2008): chi amministra i sistemi va designato per nome, la lista va tenuta
+  aggiornata, gli accessi degli amministratori vanno registrati e conservati
+  almeno sei mesi, e il loro operato va verificato almeno una volta l'anno.
+  Anche un agente con accessi amministrativi rientra in questa lista: dillo
+  alla persona responsabile.
+- **Controlli a distanza** (art. 4 dello Statuto dei lavoratori): strumenti
+  che permettono di controllare l'attività dei dipendenti richiedono un
+  accordo sindacale o l'autorizzazione dell'Ispettorato, e un'informativa
+  chiara. Leggere log di navigazione, posta o accessi di una persona per
+  controllarla non si fa senza il parere del consulente del lavoro o del DPO;
+  per la sicurezza dei sistemi si guardano dati aggregati o legati a un
+  incidente.
+- **Metadati della posta**: il Garante ha indicato tempi brevi di
+  conservazione dei log della posta dei dipendenti; verifica le indicazioni
+  aggiornate prima di allungarli.
+
 ## Le basi che fanno la differenza
 
 In ordine di impatto per una PMI:

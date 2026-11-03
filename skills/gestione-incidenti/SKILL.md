@@ -26,9 +26,9 @@ fatto con l'ora: servirà per le notifiche e per il resoconto.
 | Caso | Contenimento |
 | --- | --- |
 | Account compromesso | blocca l'accesso e revoca le sessioni, cambia la password, controlla e rimuovi regole di inoltro e app autorizzate, verifica MFA e accessi recenti |
-| Link di phishing cliccato o credenziali inserite | come sopra per quell'account; avvisa i colleghi di non aprire la stessa email; segnala il messaggio |
+| Link di phishing cliccato o credenziali inserite | come sopra per quell'account; con il sì della persona responsabile, avvisa i colleghi di non aprire la stessa email; segnala il messaggio |
 | Ransomware o file cifrati | scollega dalla rete (cavo e Wi-Fi) il PC o il server, **non spegnerlo**, non pagare, non cancellare niente; proteggi subito i backup (scollega o verifica l'immutabilità) |
-| Portatile o telefono perso | blocco e cancellazione da remoto se cifrato e gestito, cambio delle password usate sul dispositivo |
+| Portatile o telefono perso | blocco e cancellazione da remoto se è gestito, cambio delle password usate sul dispositivo; se non era cifrato, valuta con il titolare la violazione di dati personali |
 | Sistema fermo senza attacco | verifica alimentazione, rete, spazio, servizi; ultimo cambiamento fatto; contatta l'assistenza del vendor con versione e messaggi d'errore |
 
 ## Capire
