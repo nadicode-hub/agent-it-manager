@@ -1,0 +1,142 @@
+{
+  "jobs": [
+    {
+      "id": "ee1f541e1eb5",
+      "name": "Avvisi di sicurezza della settimana",
+      "prompt": "Leggi gli avvisi di sicurezza della settimana dei vendor presenti nell'inventario (it/inventario.md) e di CSIRT Italia, come dice la skill fonti-ufficiali-vendor. Per ogni avviso che riguarda una versione presente: gravità, se è sfruttato attivamente, cosa fare ed entro quando. Se l'inventario manca o è incompleto, dillo e proponi di completarlo. Messaggio breve, prima le cose urgenti.",
+      "skills": [
+        "fonti-ufficiali-vendor",
+        "sicurezza-e-conformita"
+      ],
+      "skill": "fonti-ufficiali-vendor",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * 1",
+        "display": "0 8 * * 1"
+      },
+      "schedule_display": "0 8 * * 1",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-11-03T00:59:23.490374+01:00",
+      "next_run_at": "2026-11-09T08:00:00+01:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "last_delivery_unverified": null,
+      "last_failure": null,
+      "failure_streak": 0,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "a56a13735307",
+      "name": "Controllo backup",
+      "prompt": "Controlla l'esito dei backup della notte e lo spazio dei repository, come dice la skill backup-e-storage, con gli accessi in sola lettura che hai. Se tutto è riuscito, rispondi con una riga. Se un job è fallito, è in avviso o manca un backup recente di un sistema importante, spiega cosa e proponi il passo successivo. Se non hai accesso al sistema di backup, dillo in una riga e indica cosa serve.",
+      "skills": [
+        "backup-e-storage"
+      ],
+      "skill": "backup-e-storage",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 8 * * 1-5",
+        "display": "30 8 * * 1-5"
+      },
+      "schedule_display": "30 8 * * 1-5",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-11-03T00:59:23.507367+01:00",
+      "next_run_at": "2026-11-03T08:30:00+01:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "last_delivery_unverified": null,
+      "last_failure": null,
+      "failure_streak": 0,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "0e10e4ea8489",
+      "name": "Fonti dei vendor e scadenze",
+      "prompt": "Aggiorna it/fonti-vendor.md come dice la skill fonti-ufficiali-vendor (registro MCP, organizzazioni GitHub e cataloghi dei vendor presenti in azienda, con la verifica di ufficialità), poi rileggi it/scadenze.md e segnala licenze, garanzie, certificati, domini e contratti che scadono nei prossimi 60 giorni. Riassumi novità e scadenze in poche righe.",
+      "skills": [
+        "fonti-ufficiali-vendor",
+        "onboarding-it"
+      ],
+      "skill": "fonti-ufficiali-vendor",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "monitor_script": null,
+      "monitor_url": null,
+      "monitor_state": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 1 * *",
+        "display": "0 9 1 * *"
+      },
+      "schedule_display": "0 9 1 * *",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-11-03T00:59:23.516603+01:00",
+      "next_run_at": "2026-12-01T09:00:00+01:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "last_delivery_unverified": null,
+      "last_failure": null,
+      "failure_streak": 0,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null
+    }
+  ],
+  "updated_at": "2026-11-03T00:59:23.522742+01:00"
+}

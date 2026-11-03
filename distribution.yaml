@@ -1,0 +1,19 @@
+name: it-manager
+version: 1.0.0
+description: 'The IT manager of an Italian SMB: keeps the inventory, VMware, Microsoft 365 and Windows,
+  firewalls and network, storage and backups healthy and secure, with the vendors'' official tools, documentation
+  and security advisories, and asks before touching production.'
+author: nadicode
+license: Proprietary
+distribution_owned:
+- SOUL.md
+- config.yaml
+- cron/jobs.json
+- skills/backup-e-storage
+- skills/fonti-ufficiali-vendor
+- skills/gestione-incidenti
+- skills/microsoft-365-e-windows
+- skills/onboarding-it
+- skills/rete-e-firewall
+- skills/sicurezza-e-conformita
+- skills/vmware-vsphere

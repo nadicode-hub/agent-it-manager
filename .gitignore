@@ -1,0 +1,14 @@
+auth.json
+.env
+.env.EXAMPLE
+state.db*
+memories/
+sessions/
+logs/
+workspace/
+home/
+*_cache/
+cron/*
+!cron/jobs.json
+skills/.*
+.DS_Store
